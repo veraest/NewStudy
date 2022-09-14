@@ -1,0 +1,33 @@
+fun main() {
+    var number1: Int 
+    
+    number1 = 30   
+         
+    var number2: Int 
+    
+    number2 = 50  
+    
+    var number3: Int
+    
+    number3 = 70
+    
+    var res: Int
+    res = (number1 * number2 * number3)
+    println("Результат: " + res)
+    
+    number1 = 90
+    number2 = 10
+    number3 = 2
+    
+   
+    res = (number1 * number2 * number3)
+    println("Результат: " + res)  
+    
+    number1 = 8
+    number2 = 1
+    number3 = 5
+    
+   
+    res = (number1 * number2 * number3)
+    println("Результат: " + res) 
+}
