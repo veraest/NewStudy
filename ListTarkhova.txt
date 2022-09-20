@@ -1,0 +1,12 @@
+var list = mutableListOf(1, 2, 3)
+
+fun main() {
+       
+val range = 1..10
+for(ListOf in range){
+    
+ println(ListOf)
+}
+}
+
+      
