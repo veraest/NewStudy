@@ -1,0 +1,11 @@
+val someList = listOf( "a",  "b", "c", "d", "e",  "f", "g", "h")
+
+var list = mutableListOf<String>()
+
+fun main() {
+
+    for (s in someList) {
+        list.add(s)
+    }
+    println(list)
+}
