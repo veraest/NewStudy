@@ -1,0 +1,16 @@
+var list = mutableListOf<Any>()
+
+data class CarnivorousAnimal(var name: String, var type: String)
+data class HerbivoreAnimal(var name: String, var age: Int)
+
+fun main() {
+        list.add(HerbivoreAnimal("Кролик Роджер", 5))
+        list.add(HerbivoreAnimal("Хомяк Хома", 9))
+        list.add(CarnivorousAnimal("Дельфин Тайфун", "Семейство дельфиновых"))
+        list.add(CarnivorousAnimal("Медведь Миша", "Семейство медвежьих"))
+        list.add(CarnivorousAnimal("Морж Яша", "Семейство моржовых"))
+
+      println (list) 
+    
+
+                 }
